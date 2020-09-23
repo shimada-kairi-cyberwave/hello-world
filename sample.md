@@ -1,18 +1,18 @@
 ## GITHUBプルリクエスト作成まで
 
-  1. ローカルで`git push`まで行う
+  1. **ローカルで`git push`まで行う**
 
-  1. ブラウザから作業対象のリポジトリの画面を開き、`Compare & pull request`をクリック
+  1. **ブラウザから作業対象のリポジトリの画面を開き、`Compare & pull request`をクリック**
 
      ![プルリクエスト作成](./images/20200911_pullrequest_create.png)
 
-  1. baseブランチの設定
+  1. **baseブランチの設定**
 
      baseを親ブランチ(分岐元ブランチ)に設定する
 
       ![プルリクエスト作成](./images/20200911_pullrequest_base_branch.png)
 
-  1. 概要の記述する
+  1. **概要を記述する**
 
      ### 概要の書き方
 
@@ -37,21 +37,21 @@
 
          ![概要の書き方](./images/20200911_pullrequest_detail_note_column.png)
 
-  1. ページ下部にある`Create pull request`ボタンをクリックする
+  1. **ページ下部にある`Create pull request`ボタンをクリックする**
 
 
 
 ## レビューを出す前に確認項目
 
-  * タイトルの[WIP]を外す(Editボタンからタイトルの編集ができます)
+  * **タイトルの[WIP]を外す(Editボタンからタイトルの編集ができます)**
 
     ![remove_WIP](./images/20200911_github_remove_wip.png)
 
-  * GitHub Actionsのエラーを解消する(detailsボタンからエラーの詳細が確認できます)
+  * **GitHub Actionsのエラーを解消する(detailsボタンからエラーの詳細が確認できます)**
 
     ![github-action-failed](./images/20200911_github-action_failed.png)
 
-    * ローカルでの確認(コンソール上で、実行コマンド)
+    * ローカルでの確認(コンソール上で、コマンド実行)
 
       * rubocopチェック → `rubocop`
 
